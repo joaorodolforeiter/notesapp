@@ -22,6 +22,8 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "eslint": "^8.30.0",
+    "eslint-plugin-react": "^7.31.11",
     "postcss": "^8.4.20",
     "prisma": "^4.7.1",
     "tailwindcss": "^3.2.4"

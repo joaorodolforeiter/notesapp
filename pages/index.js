@@ -5,7 +5,7 @@ import { router } from 'next/router';
 export default function login(props) {
   const { data: session } = useSession();
   if (session) {
-    router.push('/home');
+    router.push('home');
   }
   return (
     <div className="h-screen flex flex-col items-center justify-center">

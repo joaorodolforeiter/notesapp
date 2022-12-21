@@ -4,7 +4,7 @@ import CreateNoteForm from "../components/CreateNoteForm/CreateNoteForm";
 import AccountInfo from "../components/AccountInfo/AccountInfo";
 import { useState } from "react";
 
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { PrismaClient } from "@prisma/client";
 import { signOut, useSession } from "next-auth/react";
 
@@ -76,7 +76,7 @@ export default function Home(props) {
         />
       )}
       <motion.div
-        className="h-full flex flex-col p-4 gap-4 overflow-y-scroll max-w-screen-md"
+        className="h-full flex flex-col p-4 gap-4 overflow-y-scroll"
         initial="hidden"
         animate="visible"
         variants={{
